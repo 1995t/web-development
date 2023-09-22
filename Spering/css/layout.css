@@ -1,0 +1,116 @@
+body
+{
+margin: 0%;
+padding: 0%;
+background-color: white;
+}
+div>div>div>nav.nav_position
+{
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+div>div>div.nav_division>nav.nav_position>img.logo_ratio
+{
+    height: 40%;
+    width: auto;
+}
+div>div>div.nav_division
+{
+    display: flex;
+    flex-direction: row;
+}
+div>div>div.nav_division>span.logo_txt_transform
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+
+}
+div.div_sec1
+{
+    display: flex;
+    flex-direction: row;
+}
+div.div1_position
+{
+    background-color: #05445E; 
+    width: 50%;
+}
+div>div>div.div1_txt
+{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+div>div>div.div1_txt>p
+{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20%;
+}
+div>div>div.div_headlines_txt>p
+{
+    margin-left: 20%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div>div>div.div_buttons
+{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+div>div>input[type=button]
+{
+    padding:0.75em;
+    border-radius: 0%;
+    width: 140px;
+}
+div>div>input[type=button].about_us_btn
+{
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+}
+div>div>input[type=button].about_us_btn:hover
+{
+    color: red;
+    background-color: #05445E;
+    border: 1px solid red;
+    transition: all 6ms;
+}
+div>div>input[type=button].get_a_quote_btn
+{
+    margin-left: 5px;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+div>div>input[type=button].get_a_quote_btn:hover
+{
+    color: white;
+    border: 1px solid white;
+    background-color: #05445E;
+    transition: all 6ms;
+}
+div.div2_position
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: #189AB4;
+    
+}
+div>div>div.div2_cursor_btn
+{
+    margin-top: 15px;
+    
+}
+div.div2_position>img.image1_changes
+{
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 400px;
+}
